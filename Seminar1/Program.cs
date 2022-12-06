@@ -1,5 +1,5 @@
 ﻿
-
+/*
 Console.Write("Input a first number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a second number: ");
@@ -14,7 +14,7 @@ else
 {
     Console.WriteLine("No");
 } 
-
+*/
 
 // задача 2 Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
 
