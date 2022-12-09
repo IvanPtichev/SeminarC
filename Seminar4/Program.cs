@@ -35,7 +35,7 @@ int SumNumber(int num)
 }
 
 Console.Write("Imput a num: ");
-Int num = Convert.ToInt32(Console.ReadLine());
+Int number = Convert.ToInt32(Console.ReadLine());
 
 int result = SumNumber(number);
 
@@ -45,29 +45,28 @@ Console.WriteLine($"{result}");
 
 // Задача3: Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
 /*
-int SumNumber(int num)
+int Factorial(int num)
 {
-   int sum = 0;
-
+   if(num < 0) num *= -1;
+   int fact = 1;
     while( num > 0)
     {
-        sum = sum + num;
+        fact = fact * num;
         num -= 1;
     }
-    return sum;
+    return fact;
 }
 
 Console.Write("Imput a num: ");
-Int num = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-int result = SumNumber(number);
+int result = Factorial(number);
 
 Console.WriteLine($"{result}");
-*/ // доделать
-
+*/
 
 // Задача4: Создать метод для создания массива.
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -94,3 +93,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(size, min, max);
 ShowArray(myArray);
+*/
